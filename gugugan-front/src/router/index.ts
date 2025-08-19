@@ -23,6 +23,11 @@ const router = createRouter({
       name: 'find48',
       component: () => import('../views/find48/index.vue'),
     },
+    {
+      path: '/test',
+      name: 'test',
+      component: () => import('../views/test/index.vue'),
+    },
   ],
 })
 
